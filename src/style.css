@@ -1,0 +1,106 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-item {
+    width: 100%;
+    max-width: 200px;
+    max-height: 42px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin: 0 2px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.button-json {
+    background: #3a954c;
+}
+
+.button-import {
+    background: #5b5d5c;
+    margin-left: 10px;
+}
+
+.data-select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 要素を縦方向に中央揃え */
+    margin-bottom: 5px;
+    background-color: #a6a6a6;
+    border-radius: 6px;
+    padding: 0 0 10px 10px;
+}
+
+#select-header {
+    color: #fff;
+    font-size: 28px;
+    margin: 10px 0 10px 0;
+}
+
+.data-select {
+    /* デフォルトのスタイルをリセット */
+    appearance: none;
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: #fff;
+    padding: 0.5em;
+    width: 50%;
+    height: 2.5em;
+    /* 高さを2.5emに変更 */
+    cursor: pointer;
+    /* 淵のスタイル */
+    border-radius: 8px;
+    border: 1px solid #d1d1d6;
+    /* テキストのスタイル */
+    color: #000;
+    margin: 0 0 10px 10px;
+}
+
+.data-select::-ms-expand {
+    display: none;
+}
+
+.data-select::after {
+    content: " ";
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 6"%3E%3Cpath fill="%23333333" d="M10.6 0L5.5 5.1 0.4 0H10.6zM0 0h11L5.5 6 0 0z" /%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: right 0.8em top 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    pointer-events: none;
+}
+
+.data-select:focus {
+    outline: none;
+    border-color: #007aff;
+}
+
+
+/* オプションのスタイル */
+
+.data-select option {
+    color: #000;
+    background-color: #fff;
+}
+
+
+/* 選択されたオプションのスタイル */
+
+.data-select option:checked {
+    background-color: #007aff;
+    color: #fff;
+}
+
+
+/* ホバー時のスタイル */
+
+.data-select:hover {
+    border-color: #a6a6a6;
+}

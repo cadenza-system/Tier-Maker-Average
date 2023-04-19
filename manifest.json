@@ -1,0 +1,16 @@
+{
+  "name": "Tier-Maker-average",
+  "description": "Tier-Maker-average",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://tiermaker.com/create/*",
+        "http://tiermaker.com/create/*"
+      ],
+      "css": ["src/style.css"],
+      "js": ["src/store.js", "src/service.js", "src/view.js"]
+    }
+  ]
+}
