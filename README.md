@@ -1,7 +1,7 @@
 # 導入手順
 
 　1. [zip](https://github.com/cadenza-system/Tier-Maker-average/releases/download/v1.0.0/tier-maker-manager.zip) をDLして解凍<br/>
-　2. chrome://extensions/ にアクセス<br/>
+　2. [Chrome拡張の設定画面](https://chrome://extensions)にアクセス<br/>
 　3. 画面右上のデベロッパーモードをON<br/>
 　4. 画面左上の「パッケージ化されていない拡張機能を読み込む」から解凍したフォルダを読み込む<br/>
 
